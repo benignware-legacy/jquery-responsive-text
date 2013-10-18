@@ -3,6 +3,20 @@ jquery-responsive-text
 
 JQuery-Plugin for viewport-based font-sizing
 
+Example
+-------
+
+```
+
+$(document).ready(function() {
+	$("h1.responsive").responsiveText({
+		fontSize: '5vw'
+	});
+});
+
+```
+
+
 Options
 -------
 <table>
