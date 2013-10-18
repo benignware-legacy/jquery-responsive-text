@@ -21,7 +21,7 @@ Options
 -------
 <table>
   <tr>
-    <th>Option</th><th>Description</th><th>Default</th>
+    <th>Name</th><th>Description</th><th>Default</th>
   </tr>
   <tr>
     <td>fontSize</td><td>Use css3 vw and vh unit</td><td></td>
@@ -41,7 +41,7 @@ Methods
 -------
 <table>
   <tr>
-    <th>Method</th><th>Description</th><th>Return</th>
+    <th>Name</th><th>Description</th><th>Return</th>
   </tr>
   <tr>
     <td>invalidate</td><td>Refreshes the component</td><td>void</td>
