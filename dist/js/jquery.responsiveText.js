@@ -13,7 +13,7 @@
 	
 	var defaults = {
 		'fontSize': '', 
-		'minFontSize': '', 
+		'minFontSize': '12px', 
 		'maxFontSize': '', 
 		'bindResize': true
 	};
