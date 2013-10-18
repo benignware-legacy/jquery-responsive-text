@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+	    <meta charset="utf-8"/>
+	    
+	    <!-- example of jquery responsive text component -->
+	    
+	    <title>ResponsiveText</title>
+	    
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	    
+	    <script src="http://localhost/lib/jquery/jquery.js"></script>
+	    <script src="../src/js/jquery.responsiveText.js"></script>
+	    
+		<script>
+			$(document).ready(function() {
+				$("h1.responsive").responsiveText({
+					fontSize: '5vw', 
+					minFontSize: '14px'
+				});
+			});
+		</script>
+		
+	</head>
+	<body>
+		
+		<header class="subhead" id="overview">
+		  <div class="container">
+		    <h1>ResponsiveText</h1>
+		    <p class="lead">JQuery-Plugin for viewport based font-sizing</p>
+		  </div>
+		</header>
+
+
+  		<div class="container">
+			<h1 class="responsive">Responsive Headline</h1>
+			Resize viewport to see effect
+		</div>
+		
+	</body>
+</html>
